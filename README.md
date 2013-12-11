@@ -1,11 +1,11 @@
-enterKeyJS
+enterKey.js
 ==========
 
 Javacript simple Enter key press callback extension for HTMLInputElement["text"] elements
 
 Usage
 =====
-enterKeyJS is a DOM extension but it also provides a jQuery extension
+enterKey.js is a DOM extension but it also provides a jQuery extension
 
 ``` javascript
 document.getElementById("elementId").enterKey(function(value){
@@ -23,4 +23,4 @@ $("#elementId").enterKey(function(value){
 
 ## License
 
-enterKeyJS is released under the <a href="https://github.com/Urucas/enterKeyJS/blob/master/LICENSE">MIT license</a>.
+enterKey.js is released under the <a href="https://github.com/Urucas/enterKeyJS/blob/master/LICENSE">MIT license</a>.
