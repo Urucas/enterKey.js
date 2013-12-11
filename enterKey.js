@@ -49,9 +49,3 @@ try {
 		return this;
 	}
 }catch(e) {}
-
-// prevent submit default event
-try {
-	
-}catch(e) { }
-
