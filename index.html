@@ -40,7 +40,7 @@
 
 <div class="highlight highlight-javascript"><pre><span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="s2">"elementId"</span><span class="p">).</span><span class="nx">enterKey</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">value</span><span class="p">){</span>
   <span class="c1">// do something with the element value</span>
-  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">value</span><span class="p">);</span>
+  <span class="nx">alert</span><span class="p">(</span><span class="s2">"Magic"</span><span class="p">);</span>
 <span class="p">});</span>
 
 <span class="c1">// jQuery usage</span>
@@ -53,7 +53,14 @@
 
 <h2>
 <a name="example" class="anchor" href="#example"><span class="octicon octicon-link"></span></a>Example</h2>
-
+	<input type="text" id="elementId" /><label>Press Enter to Magic</label>
+	<script src="enterKey.js"></script>
+	<script>
+	document.getElementById("elementId").enterKey(function(value){
+	  // do something with the element value
+	  alert("Magic");
+	});
+	</script>
 <h2>
 <a name="license" class="anchor" href="#license"><span class="octicon octicon-link"></span></a>License</h2>
 
