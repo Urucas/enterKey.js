@@ -25,6 +25,7 @@ Element.prototype.enterKey = function(callback) {
 	this.addEventListener("keyup", function(e){
 		var keyCode = e.keyCode;
 		if(keyCode == 13) {
+			try { this.blur(); }catch(e){}
 			callback(this.value);
 			e.stopPropagation();
 		}
