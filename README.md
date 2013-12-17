@@ -3,6 +3,9 @@ enterKey.js
 
 Javacript simple Enter key press callback extension for HTMLInputElement["text"] elements
 
+## Demo
+<a href="http://urucas.github.io/enterKey.js/">http://urucas.github.io/enterKey.js/</a>
+
 Usage
 =====
 enterKey.js is a DOM extension but it also provides a jQuery extension
